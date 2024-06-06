@@ -2,7 +2,12 @@
 
 int main()
 {
-	printf("very good"\n);
+	printf("shmily"\n); 
+	printf("shmily"\n);
+	
+	printf("shmily"\n)
+
+	printf("good"\n);
 	return 0;
 }
 
