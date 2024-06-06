@@ -2,10 +2,7 @@
 
 int main()
 {
-	printf("shmily"\n); 
-	printf("shmily"\n);
-	
-	printf("shmily"\n)
+	printf("太对了!"\n);
 
 	printf("good"\n);
 	return 0;
