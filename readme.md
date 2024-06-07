@@ -42,8 +42,8 @@
 
   ```c
         git init //创建本地仓库 *后续对仓库操作都在仓库位置（master）
-	git config --list //查看git的配置文件
-	git config --global user.email “邮箱”
+	    git config --list //查看git的配置文件
+	    git config --global user.email “邮箱”
         						SSH远程访问
         git config --global user.name”用户名”
         ssh-keygen -t rsa -C“注册邮箱”//创建本地密文
@@ -59,10 +59,12 @@
 ```
 ---
 ##  本地设备与云端仓库的交互逻辑
-~[](https://picture.gptkong.com/20240607/2313c5c4a63d6d4ef0b3541b004a8f7dbb.png)
+![](https://picture.gptkong.com/20240607/2313c5c4a63d6d4ef0b3541b004a8f7dbb.png)
+    ```c
     **git add .//添加内容
     git rm //删除本地文件并删除仓库数据
     git restroe //恢复被删除(仓库存在)**
+    ```
 ---
 ## 代码更新的依赖关系被破坏
    本地内容要比云端新，完成更新替换，
@@ -70,10 +72,10 @@
    做法：
 1. \*先拉取git pull云端内容与本地内容合并或操作，而后再次推即可
 2. ```c
-	git pull --rebase origin master
-   	git rebase --skip//”忽略本地内容保留云端内容”
-   	git rebase -abort// ”忽略云端内容保留本地内容”
-   	git rebase --continue
+        git pull --rebase origin master  
+   	git rebase --skip//”忽略本地内容保留云端内容”  
+   	git rebase -abort// ”忽略云端内容保留本地内容”  
+   	git rebase --continue  
    ```
 ---
 ## 下载开源代码
@@ -94,7 +96,7 @@
    三对****** 表示即倾斜也加粗
 
 3. ---表示分割线
-4. >大于号表示引用
+4. \>大于号表示引用
 5. 列表修饰符 \*
    表示无序列表
    直接用数字加句号 再加空格表示有序列表
@@ -108,5 +110,7 @@
 ![](https://picture.gptkong.com/20240607/2345a0bb9ff8ce4479a85285d04d055d2f.png)
 8. \[\]\(\) 表示超链接
    前方为超链接名称 后方为超链接具体链接 可以在（）内添加“”来进行超链接的命名 光标移动到超链接会弹出具体作用
+[哈尔滨理工大学](http://www.hrbust.edu.cn/"点击进入中国最好的大学")
 9. \!\[\]\(\) 表示图片插入
    跟超链接一样 只不过多了一个！表示区别
+![校徽](https://picture.gptkong.com/20240607/2352d1472fe4f7496fb0274e72433fe424.png)
