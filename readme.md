@@ -9,7 +9,7 @@
    **git add code.c**  
    **git commit -m "5号 6号笔记"**
    **git push origin master**
-
+	`关键高亮`
 ## 引用表示\>表示
 >稻妻神里流太刀术皆传 神里绫华 参上
 
@@ -32,4 +32,28 @@
 2. 原神
    1. 原神启动！
    2. 我是原批
-  
+
+### 表格
+名称|技能|年龄
+--|:--:|--:
+iron man|mark 85|35
+丁哥|linux|20
+
+### 代码片段
+```c
+	#include<stdio.h>
+	int main(void)
+	{
+	    printf("我最帅"\n);
+	    return 0;
+	}
+
+```
+```cpp
+	#include<iostream>
+	int main(void)
+	{
+	cout<<"确实彦祖"<<endl;
+	}
+
+```
