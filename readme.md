@@ -1,10 +1,10 @@
 # GitHub
 ---
 ## GitHub 关键字查询  
-   awesome,去此标签中查询项目
-   eg：Cpp awesome 查找有cpp标签的项目
-   python tutorial,查询资料，书籍，文档
-   socket sample，查询对应技术的代码样本
+   awesome,去此标签中查询项目<br>
+   eg：Cpp awesome 查找有cpp标签的项目<br>
+   python tutorial,查询资料，书籍，文档<br>
+   socket sample，查询对应技术的代码样本<br>
 ---
 ## GitHub 三要素
 ### Repository 仓库
@@ -60,11 +60,11 @@
 ---
 ##  本地设备与云端仓库的交互逻辑
 ![](https://picture.gptkong.com/20240607/2313c5c4a63d6d4ef0b3541b004a8f7dbb.png)
-    ```c
-    		**git add .//添加内容
-    		git rm //删除本地文件并删除仓库数据
-    		git restroe //恢复被删除(仓库存在)**
-    ```
+```c
+        git add .//添加内容<br>
+        git rm //删除本地文件并删除仓库数据<br>
+        git restroe //恢复被删除(仓库存在)<br>
+```
 ---
 ## 代码更新的依赖关系被破坏
    本地内容要比云端新，完成更新替换，
