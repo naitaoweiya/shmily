@@ -61,9 +61,9 @@
 ##  本地设备与云端仓库的交互逻辑
 ![](https://picture.gptkong.com/20240607/2313c5c4a63d6d4ef0b3541b004a8f7dbb.png)
     ```c
-    **git add .//添加内容
-    git rm //删除本地文件并删除仓库数据
-    git restroe //恢复被删除(仓库存在)**
+    		**git add .//添加内容
+    		git rm //删除本地文件并删除仓库数据
+    		git restroe //恢复被删除(仓库存在)**
     ```
 ---
 ## 代码更新的依赖关系被破坏
@@ -72,7 +72,7 @@
    做法：
 1. \*先拉取git pull云端内容与本地内容合并或操作，而后再次推即可
 2. ```c
-        git pull --rebase origin master  
+           git pull --rebase origin master  
    	git rebase --skip//”忽略本地内容保留云端内容”  
    	git rebase -abort// ”忽略云端内容保留本地内容”  
    	git rebase --continue  
